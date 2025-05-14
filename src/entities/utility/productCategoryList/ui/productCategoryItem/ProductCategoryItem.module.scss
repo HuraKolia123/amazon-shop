@@ -1,0 +1,30 @@
+.ProductCategoryItem {
+  font-size: 16px;
+  font-weight: 600;
+  color: #232f3f;
+  cursor: pointer;
+
+  &:hover {
+    color: #666666;
+  }
+}
+
+.active {
+  width: 100%;
+  background: #c8c9cc;
+  color: blue;
+  font-weight: bold;
+}
+
+.mokCategoryName {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  &:hover {
+    width: 100%;
+    background-color: #c8c9cc;
+  }
+}

@@ -1,0 +1,28 @@
+.ProductSearchList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 24px 0px;
+  width: 100%;
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+}

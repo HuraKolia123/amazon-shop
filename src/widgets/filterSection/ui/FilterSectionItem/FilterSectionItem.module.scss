@@ -1,0 +1,16 @@
+.FilterSectionItem {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  color: rgb(15, 17, 17);
+  cursor: pointer;
+  &:hover {
+    color: #de7821;
+    background-color: #f0f0f0;
+  }
+}
+
+.selected {
+  background-color: #d3e3fd; // світло-блакитний для виділення
+  font-weight: bold;
+}

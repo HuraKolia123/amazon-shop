@@ -1,0 +1,10 @@
+.HeaderOption {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  width: 100%;
+  cursor: pointer;
+  &:hover {
+    background-color: blue;
+  }
+}
